@@ -15,4 +15,4 @@ Annotated images with bounding boxes and recognized text.
 Saved to output folder with logs of OCR confidence and regex matches.
 
 I have passed parameters to paddleocer to manage and text angle.
-01.jpg
+![Alt text](01.jpg)
