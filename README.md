@@ -95,10 +95,22 @@ It produces **clean, duplicate-free vehicle logs** with full traceability:
 
 This makes the solution suitable for **security auditing, automated access control, and compliance tracking**.
 
----
+I have passed parameters to paddleocer to manage and text angle.
+![Alt text](roboresult1/01.jpg)
+![Alt text](roboresult1/02.jpg)
+![Alt text](roboresult1/03.jpg)
+![Alt text](roboresult1/04.jpg)
+![Alt text](roboresult1/05.jpg)
+![Alt text](roboresult1/06.jpg)
+![Alt text](roboresult1/07.jpg)
+![Alt text](roboresult1/08.jpg)
+![Alt text](roboresult1/09.jpg)
+![Alt text](roboresult1/img2.png)
+![Alt text](roboresult1/img2.png)
 
 ## 🔄 End-to-End Pipeline (High-Level Flow)
 
+```text
 
 RTSP Camera Stream
         ↓
@@ -115,20 +127,3 @@ Post-processing
 (Confidence Filtering, Regex Cleanup, Duplicate Suppression)
         ↓
 Structured Logging + Snapshot Storage
-
-
-```text
-
-
-I have passed parameters to paddleocer to manage and text angle.
-![Alt text](roboresult1/01.jpg)
-![Alt text](roboresult1/02.jpg)
-![Alt text](roboresult1/03.jpg)
-![Alt text](roboresult1/04.jpg)
-![Alt text](roboresult1/05.jpg)
-![Alt text](roboresult1/06.jpg)
-![Alt text](roboresult1/07.jpg)
-![Alt text](roboresult1/08.jpg)
-![Alt text](roboresult1/09.jpg)
-![Alt text](roboresult1/img2.png)
-![Alt text](roboresult1/img2.png)
