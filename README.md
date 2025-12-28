@@ -1,6 +1,6 @@
-# 🚗 Automatic Number Plate Recognition (ANPR) – Real-Time AI Video Analytics
+# Automatic Number Plate Recognition (ANPR) – Real-Time AI Video Analytics
 
-## 📌 Project Summary
+## Project Summary
 This project implements a **production-grade Automatic Number Plate Recognition (ANPR) system** for real-time vehicle monitoring at entry and exit points.  
 The system is designed for **24×7 continuous operation** using **GPU-accelerated video analytics** and is suitable for **industrial plants, parking facilities, and gated premises**.
 
@@ -8,7 +8,7 @@ The pipeline processes live **RTSP camera streams**, performs **vehicle and lice
 
 ---
 
-## 🎯 Key Metrics & Performance
+## Key Metrics & Performance
 - **Inference Speed**: 25–30 FPS per camera stream
 - **OCR Accuracy**: Improved from ~72% → **92–95%**
 - **False Positives Reduction**: ~65–75%
@@ -18,7 +18,7 @@ The pipeline processes live **RTSP camera streams**, performs **vehicle and lice
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 The system ingests **live RTSP streams** and performs:
 1. **Vehicle & License Plate Detection** using NVIDIA DeepStream
 2. **Dynamic cropping** of detected license plates
@@ -37,7 +37,7 @@ All vehicle events are stored in a **structured, audit-ready format**, enabling:
 
 ---
 
-## ⚠️ Challenge: PaddleOCR in Real-World Conditions
+## Challenge: PaddleOCR in Real-World Conditions
 While PaddleOCR performed well on clean images, significant challenges were observed in **live streaming environments**:
 
 - Night-time glare & uneven illumination  
@@ -52,7 +52,7 @@ While PaddleOCR performed well on clean images, significant challenges were obse
 
 ---
 
-## 🛠️ Solution Approach & Technical Optimizations
+## Solution Approach & Technical Optimizations
 
 To stabilise OCR performance, a **multi-stage preprocessing and intelligence layer** was implemented.
 
@@ -70,7 +70,7 @@ To stabilise OCR performance, a **multi-stage preprocessing and intelligence lay
 
 ---
 
-## 📈 Measured Improvements (Post-Optimization)
+## Measured Improvements (Post-Optimization)
 | Metric | Before | After |
 |------|-------|------|
 | OCR Accuracy | ~72% | **92–95%** |
@@ -81,7 +81,7 @@ To stabilise OCR performance, a **multi-stage preprocessing and intelligence lay
 
 ---
 
-## ✅ Final Solution Delivered
+## Final Solution Delivered
 The final system is a **robust, scalable, and production-ready ANPR pipeline** capable of operating reliably under:
 - Low-light and night-time conditions
 - Rain and reflective environments
